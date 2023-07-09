@@ -3,23 +3,28 @@
 ![happy man meme](./meme.jpeg)
 
 1. intro - what property tesing does
-    1. there and back - deserializing the output of a serialzier
+    1. **there and back** - deserializing the output of a serialzier
     2. & 3: test examples require imagination to be thorough
 
 2. some mathematical properties for pure functions
-    1. idempotent: repeated calls have no further effect    f(a) = f(f(a))
-    2. involutive: repeated calls reverse the effect        a = f(f(a))
-    3. commutative: order of arguments doesn't matter       a + b = b + a
-    4. distributive: order of operations doesn't matter     f(a+b) = f(a) + f(b)
-    5. associative: grouping doesn't matter                 a + (b + c) = (a + b) + c
-        generally applies to any concatenation-type operation
-    6. identity operations                                  f(a,b) = a where a = 1
-        there's a special argument that makes the operation return the other argument
-    7. zeroing operations                                   f(a,b) = b where a = 0
-        there's a special argument that makes the operation return the special argument
-    8. injective operations                                 f(x) = z & f(y) = z ∴ x = y
-    9. bijective operations
-        all inputs map to exactly one output, and vise versa; operation is therefore reversible
+    1. **idempotent**: `f(a) = f(f(a))`
+        - repeated calls have no further effect
+    2. **involutive**: `a = f(f(a))`
+        - repeated calls reverse the effect
+    3. **commutative**: `a + b = b + a`
+        - order of arguments doesn't matter
+    4. **distributive**: `f(a+b) = f(a) + f(b)`
+        - order of operations doesn't matter
+    5. **associative**: `a + (b + c) = (a + b) + c`
+        - grouping doesn't matter
+        - generally applies to any concatenation-type operation
+    6. **identity operations** `f(a,b) = a where a = 1`
+        - there's a special argument that makes the operation return the other argument
+    7. **zeroing operations** `f(a,b) = b where a = 0`
+        - there's a special argument that makes the operation return the special argument
+    8. **injective operations** `f(x) = z & f(y) = z ∴ x = y`
+    9. **bijective operations**
+        - all inputs map to exactly one output, and vise versa; operation is therefore reversible
         - reverse
         - push/pop, shift/unshift
         - serializers/deserializers, encoders/decoders
