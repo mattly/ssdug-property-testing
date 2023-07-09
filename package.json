@@ -1,0 +1,21 @@
+{
+  "name": "talk-property-testing",
+  "version": "infinity",
+  "description": "a talk on property testing",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/luxon": "^3.3.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@types/node": "^20.3.3",
+    "fast-check": "^3.10.0",
+    "luxon": "^3.3.0",
+    "vitest": "^0.32.2"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
+}
