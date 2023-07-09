@@ -49,9 +49,9 @@
         - what are the boundaries of the thing I'm testing?
         - what does the thing I'm testing actually _do_?
         - Matthew's Three Types of Bugs
-            1.   it doesn't do what it's supposed to
-            2.  it does what it's supposed to do, but what it's supposed to do is wrong
-            3. we don't know what it's supposed to do, and we don't like what it's doing
+            1. it doesn't do what it's supposed to
+            2. it does what it's supposed to do, but what it's supposed to do is wrong
+            3. we don't like what it's doing, but we're not sure what it's supposed to be doing either
     2. equivalent / reference implementations
         - various sorting algorithms
         - query engines:
