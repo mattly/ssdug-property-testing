@@ -86,6 +86,7 @@
     - Go: Rapid https://github.com/flyingmutant/rapid
     - Java: Junit-Quickcheck https://github.com/pholser/junit-quickcheck
     - Python: Hypothesis https://hypothesis.works
+    - Erlang: Proper https://github.com/proper-testing/proper
     - Swift: SwiftCheck https://github.com/typelift/SwiftCheck
     - Ruby: Rantly https://github.com/rantly-rb/rantly
 
