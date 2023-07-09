@@ -27,3 +27,14 @@ test("string concatenation is associaitve", () => {
       (a, b, c) => { expect(a + (b + c)).toEqual((a + b) + c) }
     ))
 })
+
+test("hashmap merging is associative", () => {
+  fc.assert(
+    fc.property(
+      fc.object(), fc.object(), fc.object(),
+      (a, b, c) => {
+        expect({ ...a, ...({ ...b, ...c }) }).toEqual({ ...({ ...a, ...b }), ...c })
+      }
+    )
+  )
+})

@@ -18,9 +18,9 @@
     5. **associative**: `a + (b + c) = (a + b) + c`
         - grouping doesn't matter
         - generally applies to any concatenation-type operation
-    6. **identity operations** `f(a,b) = a where a = 1`
+    6. **identity operations** `f(a,b) = a where b = 1`
         - there's a special argument that makes the operation return the other argument
-    7. **zeroing operations** `f(a,b) = b where a = 0`
+    7. **zeroing operations** `f(a,b) = b where b = 0`
         - there's a special argument that makes the operation return the special argument
     8. **injective operations** `f(x) = z & f(y) = z ∴ x = y`
     9. **bijective operations**
